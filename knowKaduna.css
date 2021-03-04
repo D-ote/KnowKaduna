@@ -1,0 +1,501 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-background{
+    background: url("./knowKadunaImages/kimg.png");
+    background-size: cover;
+    background-position: center;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+}
+
+.logoImg {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-brand {
+    font-size: 15px;
+}
+
+.traceEnugu {
+    /* width: 70%; */
+    height: 500px;
+    float: right;
+    padding: 20px;
+    /* position: relative;
+    animation: traceEnugu 2s; */
+    /* margin-right: auto; */
+    /* margin-left: 20px; */
+}
+
+/* @keyframes traceEnugu {
+    from {bottom: 0px;}
+    to {bottom: 30px;}
+  }
+
+@keyframes intro {
+    from {right: -20px;}
+    to {right: 400px;}
+} */
+
+.intro {
+    padding-top: 100px;
+    position: relative;
+    animation: intro 2s;
+}
+
+.aligator {
+    width: 25px;
+    height: 40px;
+    position: relative;
+    top: -10px;
+    right: -20px;
+}
+
+.button {
+    border-radius: 0px !important;
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 60px;
+    transition: ease-in-out 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(97, 96, 88);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.fontClass {
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+    transition: ease 0.3s;
+}
+
+.fontClass:hover {
+    font-size: 38px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 987px) {
+    .traceEnugu {
+      width: 100%;
+    }
+  }
+  
+@media screen and (max-width: 765px) {
+.traceEnugu {
+    width: 100%;
+}
+.food {
+    width: 100%;
+}
+.people {
+    width: 100%;
+}
+.history {
+    width: 100%;
+}
+.colFirst {
+    width: 100%;
+}
+.colSecond {
+    width: 100%;
+}
+.colThird {
+    width: 100%;
+}
+.flex-item-left {
+    width: 100%;
+}
+.flex-item-right {
+    background-color: teal;
+}
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.food {
+    background-image: url("./knowKadunaImages/kFood.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    padding-right: 10px;
+    border-radius: 3px;
+    transition: ease-in-out 0.6s;
+}
+
+.food:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.foodText {
+    color: white;
+    padding-left: 30px;
+    padding-top: 40%;
+}
+
+.peopleText {
+    color: white;
+    padding-left: 30px;
+    padding-top: 30%;
+}
+
+.historyText {
+    color: white;
+    padding-left: 30px;
+    padding-top: 30%;  
+}
+
+.people {
+    background-image: url("./knowKadunaImages/kPeople.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 242.5px;
+    /* margin-bottom: 10px; */
+    border-radius: 3px;
+    transition: ease-in-out 0.6s;
+}
+
+.people:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.history {
+    background-image: url("./knowKadunaImages/historical.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 242.5px;
+    margin-top: 15px;
+    border-radius: 3px;
+    transition: ease-in-out 0.6s;
+}
+
+.history:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.card-img{
+    background-position: center;
+    background-size: cover;
+}
+
+/* .card{
+    height: 300px;
+    overflow: hidden;
+} */
+
+.blog .carousel-indicators {
+	left: 0;
+    bottom: -19%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 20px;
+    height: 0px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+.kadunaBtn {
+    border: 2px solid black !important;
+    border-radius: 0px !important;
+    transition: width 1s;
+}
+
+.firstBtn {
+    border: 2px solid black !important;
+    border-radius: 0px !important;
+    transition: width 1s; 
+    margin-top: 40px; 
+}
+
+.firstBtn:hover {
+    width: 200px;
+}
+
+.Posts {
+    width: 500px;
+    max-height: 300px;
+    border-radius: 0px !important;
+    box-shadow: 0px 0px 10px;
+    overflow-y: auto;
+}
+
+/* .slider {
+    position: ;
+    overflow-x: scroll;
+} */
+
+/* .cardPic {
+    max-height: 250px;
+} */
+/* 
+@media screen and (max-width: 991px) {
+    .Posts {
+        width: 100%;
+    }
+    }
+
+@media screen and (max-width: 766px) {
+    .Posts {
+        width: 100%;
+    }
+    } */
+
+.middle {
+    background-color: black;
+}
+
+.layer{
+    background: rgba(0,0,0,0.7);
+    /* margin: 1.5em 1em; */
+    padding: 1.5em 1em;
+    display: grid;
+    border-radius: 2px;
+    grid-template-columns: 70% auto;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+        "label label"
+        "btn button"
+        "info info";
+}
+
+.colFirst {
+    padding-top: 6%;
+    font-size: 20px;
+}
+
+.colSecond {
+    padding-top: 40px;
+}
+
+ul.a{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.colThird{
+    padding-top: 70px;
+}
+
+.subscribeBtn {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    background-color: rgb(182, 142, 82);
+}
+
+.footerNote {
+    display: grid;
+}
+
+.logoPic {
+    width: 60px;
+    height: 60px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item-left {
+    flex: 50%;
+}
+
+.flex-item-right {
+    flex: 50%;
+}
+
+.iconClass {
+    float: right;
+}
+
+.icon {
+    margin-right: 20px;
+    transition: ease 1s;
+}
+
+.icon:hover {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#carousel, #recentPosts, .carousel {
+    width: 100%;
+    height: 330px;
+    /* background-color: #ac8f8f; */
+    
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* white-space: nowrap; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.8rem;
+    display: block ruby;
+    display: -webkit-box;
+  }
+    
+  .slide {
+    background-color: wheat;
+    margin-right: 20px;
+    height: 300px;
+    width: 300px;
+    color: white;
+    padding: 40px 30px 0px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px -2px #00000090;
+    transition: all 0.3s ease-in-out;
+    /* box-shadow: 0px 0px 10px; */
+  }
+
+  .slide1 {
+      background-image: url(./knowKadunaImages/office.jpg);
+      background-position: center;
+      background-size: cover;
+  }
+
+  .slide1:hover {
+    cursor: pointer;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+}
+  
+  .slide2 {
+    background-image: url(./knowKadunaImages/roads.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .slide2:hover {
+    cursor: pointer;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+  .slide3 {
+        background-image: url(./knowKadunaImages/coook.jpg);
+        background-position: center;
+        background-size: cover;
+  }  
+
+  
+  .slide3:hover {
+    cursor: pointer;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+ }
+
+  #carousel::-webkit-scrollbar, .carousel::-webkit-scrollbar {
+    display: none;
+  }
+
+  .recentText {
+    font-size: 12px;
+  }
+
+  .recentSlide {
+    margin-right: 20px;
+    height: 300px;
+    width: 300px;
+    padding: 30px 20px 0px 20px;
+    box-shadow: 5px 0px 15px #888888;
+  }
+
+  .recentSlide:hover {
+      cursor: pointer;
+
+  }
+  
+  #recentPosts::-webkit-scrollbar {
+    display: none;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.carousel:hover .recentSlide{
+  filter:blur(3px);
+  opacity:.5;
+  transform: scale(.98);
+  box-shadow:none;
+}
+
+.carousel:hover .recentSlide:hover{
+  transform:scale(1);
+  filter:blur(0px);
+  opacity:1;
+  box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}
+
+.avatarImg {
+    position: relative;
+    top: 35%;
+    left: 70%;
+}
+
+.avatarText {
+    font-size: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.avatarImg2 {
+    position: relative;
+    top: 50%;
+    left: 70%;
+}
+
+.avatarText2 {
+    font-size: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.avatarImg3 {
+    position: relative;
+    top: 31%;
+    left: 70%;
+}
+
+.avatarText3 {
+    font-size: 10px;
+    position: relative;
+    top: 10px;
+}
